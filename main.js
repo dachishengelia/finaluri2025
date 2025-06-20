@@ -5,7 +5,7 @@ const authRoutes = require('./routes/authRoutes')
 const postRoutes = require('./routes/postRoutes')
 const swaggerUi = require('swagger-ui-express')
 const swaggerJsdoc = require('swagger-jsdoc')
-const connectToDb = require('./path/to/connectToDB')  
+const connectToDb = require('./db/connectToDB')  
 
 const app = express()
 
