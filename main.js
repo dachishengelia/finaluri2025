@@ -42,7 +42,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec))
 
 
 app.get('/', (req, res) => {
-  res.send('hello world')
+  res.redirect('/api/users/login')
 })
 
 app.use('/api/users', authRoutes)
